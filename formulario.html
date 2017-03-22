@@ -17,10 +17,10 @@
 
 	<script>
 		function myFunction() {
-			var nombre =  document.getElementsByid("name");
+			var nombre = document.getElementById("name");
 			var correo = document.getElementById("email");
-			document.getElementById("mostrarNombre").innerHTML = nombre;
-			document.getElementById("mostrarMail").innerHTML = correo;
+			document.getElementById("mostrarNombre").innerHTML = nombre.value;
+			document.getElementById("mostrarMail").innerHTML = correo.value;
 		}
 	</script>
 </body>
